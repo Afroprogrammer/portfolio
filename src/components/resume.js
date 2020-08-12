@@ -20,12 +20,11 @@ class Resume extends Component {
                      <h2 style = {{paddingTop:'2em' }}>Franklin Oduro</h2>
                      <h4 style={{color: 'grey'}}> Programmer</h4>
                      <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                     <p>Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Non dolores
-                        voluptatibus impedit cupiditate veniam deleniti
-                        itaque libero, consequatur quod, possimus hic
-                        assumenda, necessitatibus quasi laboriosam velit
-                        cumque aliquid culpa amet! </p>
+                     <p> Franklin Oduro is a self motivated Software engineer and Currently studying Bsc Inforamtion 
+                        Technology in Koforidua Technical University.</p>
+                    <p>Franklin is conversant with Python and JavaScript Language and has been able to build test and 
+                           implement web applications with Django and Nodejs Frameworks.
+                           </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
                         <p> 25 Mandela Street </p>
@@ -43,25 +42,22 @@ class Resume extends Component {
                     <h2> Education </h2>
                     <Education 
                     startYear= {2018}
-                    endYear={2006}
+                    startMonth = "May"
+                    endMonth = "May"
+                    endYear={2020}
                     schoolName="Koforidua Technical University"
                     schoolDescription="Bsc Information technology"
                     />
 
 <Education 
-                    startYear= {2018}
-                    endYear={2006}
-                    schoolName="Koforidua Technical University"
-                    schoolDescription="Bsc Information technology"
-                    />
-
-
-
-<Education 
-                    startYear= {2018}
-                    endYear={2006}
-                    schoolName="Koforidua Technical University"
-                    schoolDescription="Bsc Information technology"
+                      startYear= {2018}
+                      startMonth = "April"
+                      endMonth = "September"
+                      endYear={2018}
+                    schoolName="Ghana Technology University College"
+                    schoolDescription="Completed a six month course in Software development
+                    the courses included; Introduction to advanced programming languages and 
+                    Scripting concepts"
                     />
 
 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -70,40 +66,34 @@ class Resume extends Component {
 <Experience
   startYear= {2018}
   endYear={2006}
-  jobName="Koforidua Technical University"
-  jobDescription="lorem ipsum dolor sit amet
-  consectetur, adipisicing elit. Non dolores
-  voluptatibus impedit cupiditate veniam deleniti
-  itaque libero, consequatur quod, possimus hic
-  assumenda, necessitatibus quasi laboriosam velit
-  cumque aliquid culpa amet!"
+  jobName="WordPress Developer"
+  jobDescription="Developed a unique website and logo to improve writer's club brand and identity.
+  Created and built mobile-friendly websites and transitioned a legacy website to a mobile-friendly
+  platform.
+  Worked as a freelance WordPress developer for the club whiles in school
+  Designed building a blogging website for the club.
+  Technologies Jsed3 HTML5, GSS/ MySQL, and WordPress its currently hosted at
+  https://writershub.afroprogrammer.com"
 
 />
+<h2>Courses</h2>
 
-<Experience
-  startYear= {2018}
-  endYear={2006}
-  jobName="Koforidua Technical University"
-  jobDescription="lorem ipsum dolor sit amet
-  consectetur, adipisicing elit. Non dolores
-  voluptatibus impedit cupiditate veniam deleniti
-  itaque libero, consequatur quod, possimus hic
-  assumenda, necessitatibus quasi laboriosam velit
-  cumque aliquid culpa amet!"
 
-/>
+<Education 
+                      startYear= {2018}
+                      startMonth = "April"
+                      endMonth = "September"
+                      endYear={2018}
+                    schoolName="Ghana Technology University College"
+                    schoolDescription="Completed a six month course in Software development
+                    the courses included; Introduction to advanced programming languages and 
+                    Scripting concepts"
+                    />
 
-<Experience
-  startYear= {2018}
-  endYear={2006}
-  jobName="Koforidua Technical University"
-  jobDescription="lorem ipsum dolor sit amet
-  consectetur, adipisicing elit. Non dolores
-  voluptatibus impedit cupiditate veniam deleniti
-  itaque libero, consequatur quod, possimus hic
-  assumenda, necessitatibus quasi laboriosam velit
-  cumque aliquid culpa amet!"
-
+<Education 
+                    startMonth= {2019}
+                    schoolName="Freecodecamp"
+                    schoolDescription="Full stack Web development Course by freecodecamp.org."
 />
 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
 

@@ -12,12 +12,14 @@ class Landing extends Component {
                 <img
                     src={icon} className="avatar-img" alt="avatar"               
                 />
+               
+                    
                 <div className= "banner-text">
                     <h1> full stack web developer</h1>
 
                     <hr/>
 
-                    <p> HTML/CSS|Bootstrap|JavaScript|React|Angular|Python Django|NodeJs</p>
+                    <p> HTML/CSS| Bootstrap |JavaScript |React |Angular |Python Django |NodeJs</p>
                     <div className = "social-links">
                         <a href="/" target="blank" rel = "noopener no referrer"> <i className="fab fa-linkedin"  aria-hidden="true"/>  </a>
                         <a href="/" target="blank" rel = "noopener no referrer"> <i className="fab fa-github-square"  aria-hidden="true"/>  </a>
@@ -26,8 +28,8 @@ class Landing extends Component {
 
                     </div>
                 </div>
-
                 </Cell>
+    
                 </Grid>
             </div>
         )

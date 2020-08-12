@@ -43,6 +43,8 @@ text-align: center;
 }
 
 .banner-text p{
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 20px;
   padding: 1em;
@@ -52,13 +54,13 @@ text-align: center;
 display: flex;
 justify-content: space-between;
 width: 60%;
-margin: auto;
+margin-left: auto;
+margin-right: auto;
 }
 .social-links i{
   color:white;
-  font-size: 5em;
+  font-size: 2em;
   padding: 8px;
-
 }
 
 .projects-grid{
@@ -66,6 +68,7 @@ margin: auto;
   justify-content: space-between;
   margin: auto;
 }
+
 
 /*contact page css*/
 .contact-body{
@@ -91,7 +94,6 @@ margin: auto;
 }
 .contact-grid p{
   font-family: 'Oxygen Mono', monospace;
-  font-weight: bold;
 }
 
 .contact-grid hr{
@@ -101,14 +103,14 @@ margin: auto;
 }
 
 .contact-list i{
-  font-size: 66px;
-  padding-right: 5rem;
+  font-size: 60px;
+  padding-right: 10px;
 
 }
 
 /* resume page */
 .resume-right-col{
-  background: #272727;
+  background: #2F80ED;
   color: white;
   padding: 2em;
 }

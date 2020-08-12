@@ -14,12 +14,13 @@ class Contact extends Component {
              style={{height: '250px'}}
             />
 
-             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}> Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Non dolores
-                voluptatibus impedit cupiditate veniam deleniti
-                itaque libero, consequatur quod, possimus hic
-                assumenda, necessitatibus quasi laboriosam velit
-                cumque aliquid culpa amet! </p>
+             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}> 
+             Franklin Oduro is a self motivated Software engineer and Currently studying Bsc Inforamtion 
+             Technology in Koforidua Technical University.
+               <p>Franklin is conversant with Python and JavaScript Language and has been able to build test and 
+                implement web applications with Django and Nodejs Frameworks.
+               </p> 
+            </p>
                     </Cell>
 
                     <Cell col = {6}>
@@ -34,16 +35,10 @@ class Contact extends Component {
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Arvo'}}>
-                                    <i className='fas fa-at' aria-hidden='true'/>
+                            <ListItemContent style={{fontSize: '20px', fontFamily: 'Arvo'}}>
+                                    <i className='fa fa-envelope-square' aria-hidden='true'/>
                                     forsonfranklin@gmail.com
                                 </ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                             <ListItemContent style={{fontSize: '25px', fontFamily: 'Arvo'}}>
-                                    <i className='fab fa-skype' aria-hidden='true'/>
-                                    (MySkypeID)
-                            </ListItemContent>
                         </ListItem>
                     </List>
                     </div>

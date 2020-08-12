@@ -5,7 +5,7 @@ class Education extends Component{
         return(
                 <Grid>
                     <Cell col = {4}> 
-                         <p> {this.props.startYear} - {this.props.endYear}</p>
+                         <p> {this.props.startMonth} {this.props.startYear} - {this.props.endMonth} {this.props.endYear}</p>
                     </Cell>
                     <Cell col = {8}> 
                         <h4 style={{marginTop: '0px'}}>{this.props.schoolName}</h4>
